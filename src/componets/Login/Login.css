@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    background-color: rgb(4, 123, 123);
+}
+
+.login-box{
+    width: 40vh;
+    height: 70vh;
+    background-color: rgb(23, 99, 99);
+    border-radius: 15px;
+    box-shadow: 5px 0px 8px rgb(5, 68, 70);
+    display: flex;
+    justify-content: center;
+}
+
+.login-box .login-box-sub{
+    width: 80%;
+    height: 60%;
+}
+
+.login-box .login-box-sub h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: cadetblue;
+    text-shadow: 2px 7px 4px rgb(14, 67, 67);
+    margin-top: 90px;
+}
+
+.login-box .login-box-sub input{
+    width: 100%;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: rgb(34, 81, 81);
+    outline: none;
+    text-align: center;
+    color: rgb(116, 199, 202);
+}
+
+.login-box .login-box-sub label{
+    color: rgb(69, 177, 181);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-box .login-box-sub #signup-b{
+    width: 70px;
+    height: 26px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 2px 8px rgb(25, 76, 77);
+    color: rgb(46, 46, 46);
+    font-weight: bold;
+    background: linear-gradient(rgb(113, 184, 186),rgb(1, 159, 159));
+}
+
+.login-box .login-box-sub #signup-b:hover{
+    box-shadow: 0px 0px 0px rgb(25,76,77);
+    transition: 50ms;
+}
+
+.login-box .login-box-sub #signup-b:active{
+    box-shadow: 5px 5px 8px rgb(25,76,77) inset;
+
+}
+
+.login-box .login-box-sub #submit-b{
+    color: rgb(0, 0, 76);
+    text-align: center;
+}

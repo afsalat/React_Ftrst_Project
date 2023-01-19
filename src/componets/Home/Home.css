@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    background-color: rgb(93, 207, 207);
+}
+
+.home-page{
+    width: 100%;
+}
+
+.home-page .header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(71, 120, 121);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.home-page .header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.home-page .header .search-combo input{
+    height: 30px;
+    width: 40vh;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border: none;
+    outline: none;
+    background: linear-gradient(rgb(135, 181, 183),cadetblue);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.home-page .header .search-combo button{
+    height: 30px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border: none;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(123, 203, 206),rgb(110, 162, 162));
+}
+
+.home-page .header .search-combo button:active{
+    height: 30px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    box-shadow: 4px 4px 8px inset;
+    border: none;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(123, 203, 206),rgb(110, 162, 162));
+}
+
+.home-page .header select{
+    width: 12vh;
+    height: 5vh;
+    border: none;
+    font-size: 14px;
+    border-radius: 9px;
+    transition: 2s;
+    font-weight: bold;
+    outline: none;
+    background-color: rgb(71, 120, 121);
+    font-family:sans-serif;
+}
+
+.home-page .header h3{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+.home-page .header h1{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.home-page .gallery{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page .gallery .row{
+    width: 98%;
+    height: 90%;
+    background-color: rgb(20, 171, 171);
+}
+
+.home-page .gallery .row h5{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px rgb(40, 74, 75);
+    color: rgb(146, 225, 227);
+}
+
+.home-page .gallery .row .cards-row{
+    width: 100%;
+    height: 81%;
+    background-color: rgb(37, 137, 140);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.home-page .gallery .row .cards-row::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(39, 109, 103, 0.3);
+	background-color: rgb(114, 175, 177);
+}
+
+.home-page .gallery .row .cards-row::-webkit-scrollbar{
+	width: 6px;
+	background-color: rgb(114, 175, 177);
+}
+
+.home-page .gallery .row .cards-row::-webkit-scrollbar-thumb{
+	background-color:rgb(7, 73, 73);
+    border-radius: 40px;
+}
+
+.home-page .gallery .row .cards-row .card{
+    display: inline-block;
+    margin: 10px 10px;
+    height: 90%;
+    width: 17%;
+    border-radius: 2px;
+    background:linear-gradient(rgb(20, 94, 97),rgb(43, 173, 177));
+    box-shadow: 2px 2px 7px rgb(56, 93, 95);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.home-page .gallery .row .cards-row .card .image{
+    width: 100%;
+    height: 50%;
+}
+
+.home-page .gallery .row .cards-row .card .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.home-page .gallery .row .cards-row .card .details{
+    margin-left:8px;
+    width: 100%;
+    height: 50%;
+}
+
+.home-page .gallery .row .cards-row .card .details .date{
+    text-align: center;
+}
+
+.home-page .gallery .row .cards-row .card .details .date p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.home-page .gallery .row .cards-row .card .details .name a, .price h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+
+.home-page .about{
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-page .about .about-sub-1,.about-sub-2{
+    max-width: 50%;
+}
+
+.home-page .about .about-sub-2 a{
+    width: 80px;
+    height: 20px;
+    background-color: red;
+}
+
